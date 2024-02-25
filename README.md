@@ -10,7 +10,13 @@ After cloning the repository the first step for installation is creating a virtu
 python3 -m venv venv
 ```
 
-Once we've got the virtual environment we have to install the requirements. For this project I'm using pip, so the command to run is
+And activate it
+
+```
+source venv/bin/activate
+```
+
+Once we've got the virtual environment activated we have to install the required dependencies. For this project I'm using pip, so the command to run is
 
 ```
 pip install -r requirements.txt
